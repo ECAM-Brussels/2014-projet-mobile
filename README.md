@@ -1,2 +1,2 @@
-- [Application ISEI 1](https://github.com/ApplicationISEI)
+- [Application ISEI 1](https://github.com/ApplicationISEI/isei)
 
