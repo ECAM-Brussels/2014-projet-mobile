@@ -18,7 +18,6 @@ Pour y arriver sous linux our osx remplacer ces appels par `apt-get` ou `brew` o
 
 # Phonegap points de départ dans la documentation
 - [Wiki](https://github.com/phonegap/phonegap/wiki)
--
 
 # Phonegap minimale
 Phonegap est aussi un utilitaire [nodejs](http://nodejs.org/) qui vous permettera de générer un projet phonegap,
@@ -30,6 +29,17 @@ choco install nodejs
 npm install -g phonegap
 phonegap create my-android-project-name-here
 cd my-android-project-name-here
+```
+
+# Tester avec : un server web nodejs
+## Dépendances
+- [nws](https://www.npmjs.org/package/nws)
+```sh
+npm install -g nws
+cd android-project/www
+nws
+# browse : localhost:3030
+# on mobile : %pc_ip_address%:3030
 ```
 
 # Tester avec : Phonegap Developer App
