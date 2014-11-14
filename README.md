@@ -19,9 +19,13 @@ Pour y arriver sous linux our osx remplacer ces appels par `apt-get` ou `brew` o
 # Phonegap points de départ dans la documentation
 - [Wiki](https://github.com/phonegap/phonegap/wiki)
 
-# Phonegap minimale
+# Démerrage Phonegap minimal
 Phonegap est aussi un utilitaire [nodejs](http://nodejs.org/) qui vous permettera de générer un projet phonegap,
 de le compiler en apk, de l'exécuter dans un émulateur, ou de le lier à l'app [PhoneGap Developer - Android](https://play.google.com/store/apps/details?id=com.adobe.phonegap.app) 
+
+**Dépendances**
+- [node.js](http://nodejs.org/)
+- [PhoneGap | Home](http://phonegap.com/)
 
 sur une ligne de commande :
 ```sh
@@ -31,8 +35,8 @@ phonegap create my-android-project-name-here
 cd my-android-project-name-here
 ```
 
-# Tester avec : un server web nodejs
-## Dépendances
+# Exécuter et tester dans un browser avec : un server web nodejs
+**Dépendances**
 - [nws](https://www.npmjs.org/package/nws)
 ```sh
 npm install -g nws
@@ -42,8 +46,8 @@ nws
 # on mobile : %pc_ip_address%:3030
 ```
 
-# Tester avec : Phonegap Developer App
-## Dépendances
+# Exécuter et tester avec : Phonegap Developer App
+**Dépendances**
 - [PhoneGap Developer App](http://app.phonegap.com/)
 - [PhoneGap Developer - Android](https://play.google.com/store/apps/details?id=com.adobe.phonegap.app)
 ```sh
